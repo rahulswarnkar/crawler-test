@@ -1,0 +1,24 @@
+{
+    "/": {
+        "title": "Home",
+        "links": [
+          { "href": "about", "text": "About" },
+          { "href": "https://www.google.com", "text": "Google Secure" }
+        ]
+    },
+    "/index.html": {
+        "title": "Home",
+        "links": [
+          { "href": "about", "text": "About" },
+          { "href": "https://www.google.com", "text": "Google Secure" }
+        ]
+    },
+    "/about": {
+        "title": "About",
+        "links": [
+          { "href": "/", "text": "Home" },
+          { "href": "https://www.google.com", "text": "Google Secure" }
+        ]
+    }
+
+}

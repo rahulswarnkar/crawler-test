@@ -1,0 +1,8 @@
+html
+  head
+    title= title
+  body
+    h1= title
+    each link in links
+        p
+            a(href=link.href) #{link.text}

@@ -1,0 +1,18 @@
+{
+  "name": "crawler-test",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn ts-node src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
